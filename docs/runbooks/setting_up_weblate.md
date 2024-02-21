@@ -4,7 +4,7 @@
 
 This document describes how to set up Weblate to translate a project in Github.
 
-When finished a project will be set up in the MoJ Weblate instance and the project will be linked to a Github repository, so that Webalte can create pull requests with translations.
+When finished a project will be set up in the MoJ Weblate instance and the project will be linked to a Github repository, so that Weblate can create pull requests with translations.
 
 ## Prerequesites
 
