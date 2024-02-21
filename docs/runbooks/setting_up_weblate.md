@@ -28,3 +28,8 @@ You will need to have the following:
 7. Click "Save" to create the component.
 
 Weblate will import the project, and show a Community Localisatoin Checklist. You can choose to address these later by going to `https://moj.weblate.cloud/guide/<project>/<component>/`.
+
+### 2. Get updates from the repository
+
+1. Go to Settings in the repository in Github, and select Webhooks.
+2. Click "Add webhook" and set the Payload URL to `https://moj.weblate.cloud/hooks/github/`. Set the Content type to `application/x-www-form-urlencoded`. Don't set a secret, and select "Just Push Event" for the events to trigger the webhook. Click "Add webhook".
