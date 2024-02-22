@@ -11,7 +11,7 @@ When finished a project will be set up in the MoJ Weblate instance and the proje
 You will need to have the following:
 
 1. A Github account
-2. A Weblate account with Administrotor access
+2. A Weblate account with Administrator access
 3. A project in Github that you want to translate
 
 ## Setup
