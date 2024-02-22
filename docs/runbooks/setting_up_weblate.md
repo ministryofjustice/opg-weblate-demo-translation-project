@@ -11,7 +11,7 @@ When finished a project will be set up in the MoJ Weblate instance and the proje
 You will need to have the following:
 
 1. A Github account
-2. A Weblate account
+2. A Weblate account with Administrator access
 3. A project in Github that you want to translate
 
 ## Setup
@@ -36,3 +36,9 @@ Weblate will import the project, and show a Community Localisatoin Checklist. Yo
 
 1. Go to Settings in the repository in Github, and select Webhooks.
 2. Click "Add webhook" and set the Payload URL to `https://moj.weblate.cloud/hooks/github/`. Set the Content type to `application/x-www-form-urlencoded`. Don't set a secret, and select "Just Push Event" for the events to trigger the webhook. Click "Add webhook".
+
+### 4. Set up project access in Weblate
+
+1. Go to the project  settings Access tab in Weblate at `https://moj.weblate.cloud/settings/opg-weblate-demo-translation-project/#access` and set the visibility to `Private`. This allows only specified users to be able to see and work on the project.
+2. Then go to the Users settings page in Weblate at `https://moj.weblate.cloud/access/opg-weblate-demo-translation-project/#users/` and add the users you want to be able to work on the project. Users must already have a Weblate account to be added to a project. Use teams to assign permissions sets.
+See the [Weblate documentation](https://docs.weblate.org/en/weblate-5.4/admin/access.html#groups) for more information on access control.
