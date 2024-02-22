@@ -39,4 +39,6 @@ Weblate will import the project, and show a Community Localisatoin Checklist. Yo
 
 ### 4. Set project visibility in Weblate
 
-1. Go to the project access settings in Weblate For example `https://moj.weblate.cloud/settings/opg-weblate-demo-translation-project/#access` and set the visibility to `Private`. This allows only specified users to be able to see and work on the project.
+1. Go to the project  settings Access tab in Weblate at `https://moj.weblate.cloud/settings/opg-weblate-demo-translation-project/#access` and set the visibility to `Private`. This allows only specified users to be able to see and work on the project.
+2. Then go to the Users settings page in Weblate at `https://moj.weblate.cloud/access/opg-weblate-demo-translation-project/#users/` and add the users you want to be able to work on the project. Users must already have a Weblate account to be added to a project. Use teams to assign permissions sets.
+See the [Weblate documentation](https://docs.weblate.org/en/weblate-5.4/admin/access.html#groups) for more information on access control.
